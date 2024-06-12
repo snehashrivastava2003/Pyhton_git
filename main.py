@@ -43,7 +43,7 @@ def main():
         print("3. Mark Task as Completed")
         print("4. Exit")
 
-        choice = input("Enter your choice: ")
+        choice = input("Enter your personal choice: ")
 
         if choice == "1":
             description = input("Enter task description: ")
