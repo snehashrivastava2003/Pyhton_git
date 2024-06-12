@@ -46,7 +46,7 @@ def main():
         choice = input("Enter your personal choice: ")
 
         if choice == "1":
-            description = input("Enter task description: ")
+            description = input("Enter your  task description: ")
             task_manager.add_task(description)
             print("Task added successfully.")
         elif choice == "2":
