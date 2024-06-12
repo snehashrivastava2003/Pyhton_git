@@ -55,7 +55,7 @@ def main():
             task_index = int(input("Enter task index to mark as completed: "))
             task_manager.mark_task_completed(task_index)
         elif choice == "4":
-            print("Exiting program.")
+            print("Exiting latest program.")
             break
         else:
             print("Invalid choice. Please try again.")
